@@ -1,0 +1,50 @@
+/*----------header----------*/
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*----------nav----------*/
+nav{
+    width: 10%;
+}
+nav a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/*----------main----------*/
+main{
+    width: 70%;
+}
+main > h2, p{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*----------aside----------*/
+aside{
+    width: 20%;
+}
+aside > h2, p{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*----------alineacion----------*/
+nav, main, aside{
+    float: left;
+}
+
+/*----------footer----------*/
+footer{
+    clear: both;
+    padding: 1px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
